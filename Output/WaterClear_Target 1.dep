@@ -1,0 +1,508 @@
+Dependencies for Project 'WaterClear', Target 'Target 1': (DO NOT MODIFY !)
+F (..\CMSIS\system_HR8P506.c)(0x5A90D0F2)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FreeRTOS -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\Hardware\Flow -I ..\Hardware\GSM -I ..\Hardware\Pressure -I ..\Hardware\TDS -I ..\Hardware\Uart -I ..\Library\Include -I ..\StartUp -I ..\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\HR-D__UVISION_VERSION="518"-o ..\output\system_hr8p506.o --omf_browse ..\output\system_hr8p506.crf --depend ..\output\system_hr8p506.d)
+I (..\CMSIS\system_HR8P506.h)(0x5A4ED40B)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\CMSIS\HR8P506.h)(0x5A54453E)
+I (..\CMSIS\core_cm0.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmInstr.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmFunc.h)(0x5A4ED40B)
+I (..\Library\Include\lib_scu.h)(0x5A4ED40B)
+I (..\Library\Include\lib_gpio.h)(0x5A4ED40B)
+I (..\Library\Include\type.h)(0x5A4ED40B)
+I (..\Library\Include\lib_scs.h)(0x5A4ED40B)
+I (..\Library\Include\lib_wdt.h)(0x5A4ED40B)
+F (..\Library\Source\hr8p506_iap_table.c)(0x5A544541)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FreeRTOS -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\Hardware\Flow -I ..\Hardware\GSM -I ..\Hardware\Pressure -I ..\Hardware\TDS -I ..\Hardware\Uart -I ..\Library\Include -I ..\StartUp -I ..\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\HR-D__UVISION_VERSION="518"-o ..\output\hr8p506_iap_table.o --omf_browse ..\output\hr8p506_iap_table.crf --depend ..\output\hr8p506_iap_table.d)
+I (..\Library\Include\hr8p506_iap_table.h)(0x5A4ED40B)
+I (..\CMSIS\HR8P506.h)(0x5A54453E)
+I (..\CMSIS\core_cm0.h)(0x5A4ED40B)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\CMSIS\core_cmInstr.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmFunc.h)(0x5A4ED40B)
+I (..\Library\Include\type.h)(0x5A4ED40B)
+F (..\Library\Source\lib_flashiap.c)(0x5A8F83E3)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FreeRTOS -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\Hardware\Flow -I ..\Hardware\GSM -I ..\Hardware\Pressure -I ..\Hardware\TDS -I ..\Hardware\Uart -I ..\Library\Include -I ..\StartUp -I ..\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\HR-D__UVISION_VERSION="518"-o ..\output\lib_flashiap.o --omf_browse ..\output\lib_flashiap.crf --depend ..\output\lib_flashiap.d)
+I (..\Library\Include\lib_flashiap.h)(0x5A4ED65E)
+I (..\CMSIS\HR8P506.h)(0x5A54453E)
+I (..\CMSIS\core_cm0.h)(0x5A4ED40B)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\CMSIS\core_cmInstr.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmFunc.h)(0x5A4ED40B)
+I (..\Library\Include\type.h)(0x5A4ED40B)
+I (..\User\user_config.h)(0x5A8FF55F)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5A90BD8A)
+I (D:\Keil\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x5A90D9A5)
+I (..\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (..\FreeRTOS\include\portable.h)(0x573F3A16)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (..\FreeRTOS\portable\portmacro.h)(0x573F3A17)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (..\FreeRTOS\include\task.h)(0x573F3A16)
+I (..\FreeRTOS\include\list.h)(0x573F3A16)
+I (..\FreeRTOS\include\queue.h)(0x573F3A16)
+I (..\FreeRTOS\include\timers.h)(0x573F3A16)
+I (..\FreeRTOS\include\event_groups.h)(0x573F3A16)
+I (..\FreeRTOS\include\croutine.h)(0x573F3A16)
+I (..\FreeRTOS\include\semphr.h)(0x573F3A16)
+I (..\CMSIS\system_HR8P506.h)(0x5A4ED40B)
+I (..\Library\Include\lib_gpio.h)(0x5A4ED40B)
+I (..\Library\Include\lib_uart.h)(0x5A4ED40B)
+I (..\Library\Include\lib_timer.h)(0x5A4ED40B)
+I (..\Library\Include\lib_scs.h)(0x5A4ED40B)
+I (..\Library\Include\lib_wdt.h)(0x5A4ED40B)
+I (..\Library\Include\lib_adc.h)(0x5A4ED40B)
+I (..\Hardware\Uart\uart.h)(0x5A766CA8)
+I (..\Hardware\TDS\tds.h)(0x5A8FF54C)
+I (..\User\my_systick.h)(0x5A531D35)
+I (..\Hardware\GSM\sim800c.h)(0x5A8F71FB)
+I (..\User\msgbuild.h)(0x5A90DFED)
+I (..\Hardware\Pressure\pressure.h)(0x5A52CD93)
+I (..\Hardware\Flow\water_flow.h)(0x5A52CD93)
+F (..\Library\Source\lib_gpio.c)(0x5A4ED40B)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FreeRTOS -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\Hardware\Flow -I ..\Hardware\GSM -I ..\Hardware\Pressure -I ..\Hardware\TDS -I ..\Hardware\Uart -I ..\Library\Include -I ..\StartUp -I ..\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\HR-D__UVISION_VERSION="518"-o ..\output\lib_gpio.o --omf_browse ..\output\lib_gpio.crf --depend ..\output\lib_gpio.d)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\Library\Include\lib_gpio.h)(0x5A4ED40B)
+I (..\CMSIS\HR8P506.h)(0x5A54453E)
+I (..\CMSIS\core_cm0.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmInstr.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmFunc.h)(0x5A4ED40B)
+F (..\Library\Source\lib_scs.c)(0x5A4ED40B)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FreeRTOS -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\Hardware\Flow -I ..\Hardware\GSM -I ..\Hardware\Pressure -I ..\Hardware\TDS -I ..\Hardware\Uart -I ..\Library\Include -I ..\StartUp -I ..\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\HR-D__UVISION_VERSION="518"-o ..\output\lib_scs.o --omf_browse ..\output\lib_scs.crf --depend ..\output\lib_scs.d)
+I (..\Library\Include\lib_scs.h)(0x5A4ED40B)
+I (..\CMSIS\HR8P506.h)(0x5A54453E)
+I (..\CMSIS\core_cm0.h)(0x5A4ED40B)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\CMSIS\core_cmInstr.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmFunc.h)(0x5A4ED40B)
+I (..\Library\Include\type.h)(0x5A4ED40B)
+F (..\Library\Source\lib_scu.c)(0x5A4ED40B)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FreeRTOS -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\Hardware\Flow -I ..\Hardware\GSM -I ..\Hardware\Pressure -I ..\Hardware\TDS -I ..\Hardware\Uart -I ..\Library\Include -I ..\StartUp -I ..\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\HR-D__UVISION_VERSION="518"-o ..\output\lib_scu.o --omf_browse ..\output\lib_scu.crf --depend ..\output\lib_scu.d)
+I (..\Library\Include\lib_scu.h)(0x5A4ED40B)
+I (..\CMSIS\HR8P506.h)(0x5A54453E)
+I (..\CMSIS\core_cm0.h)(0x5A4ED40B)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\CMSIS\core_cmInstr.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmFunc.h)(0x5A4ED40B)
+I (..\Library\Include\lib_gpio.h)(0x5A4ED40B)
+I (..\Library\Include\type.h)(0x5A4ED40B)
+F (..\Library\Source\lib_timer.c)(0x5A4ED40B)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FreeRTOS -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\Hardware\Flow -I ..\Hardware\GSM -I ..\Hardware\Pressure -I ..\Hardware\TDS -I ..\Hardware\Uart -I ..\Library\Include -I ..\StartUp -I ..\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\HR-D__UVISION_VERSION="518"-o ..\output\lib_timer.o --omf_browse ..\output\lib_timer.crf --depend ..\output\lib_timer.d)
+I (..\Library\Include\lib_timer.h)(0x5A4ED40B)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\CMSIS\HR8P506.h)(0x5A54453E)
+I (..\CMSIS\core_cm0.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmInstr.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmFunc.h)(0x5A4ED40B)
+I (..\Library\Include\type.h)(0x5A4ED40B)
+F (..\Library\Source\lib_uart.c)(0x5A4ED40B)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FreeRTOS -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\Hardware\Flow -I ..\Hardware\GSM -I ..\Hardware\Pressure -I ..\Hardware\TDS -I ..\Hardware\Uart -I ..\Library\Include -I ..\StartUp -I ..\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\HR-D__UVISION_VERSION="518"-o ..\output\lib_uart.o --omf_browse ..\output\lib_uart.crf --depend ..\output\lib_uart.d)
+I (..\Library\Include\lib_uart.h)(0x5A4ED40B)
+I (..\CMSIS\HR8P506.h)(0x5A54453E)
+I (..\CMSIS\core_cm0.h)(0x5A4ED40B)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\CMSIS\core_cmInstr.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmFunc.h)(0x5A4ED40B)
+I (..\Library\Include\type.h)(0x5A4ED40B)
+I (..\CMSIS\system_hr8p506.h)(0x5A4ED40B)
+F (..\Library\Source\lib_wdt.c)(0x5A4ED40B)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FreeRTOS -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\Hardware\Flow -I ..\Hardware\GSM -I ..\Hardware\Pressure -I ..\Hardware\TDS -I ..\Hardware\Uart -I ..\Library\Include -I ..\StartUp -I ..\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\HR-D__UVISION_VERSION="518"-o ..\output\lib_wdt.o --omf_browse ..\output\lib_wdt.crf --depend ..\output\lib_wdt.d)
+I (..\Library\Include\lib_wdt.h)(0x5A4ED40B)
+I (..\CMSIS\HR8P506.h)(0x5A54453E)
+I (..\CMSIS\core_cm0.h)(0x5A4ED40B)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\CMSIS\core_cmInstr.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmFunc.h)(0x5A4ED40B)
+I (..\Library\Include\type.h)(0x5A4ED40B)
+I (..\CMSIS\system_hr8p506.h)(0x5A4ED40B)
+F (..\StartUp\startup_HR8P506.s)(0x5A90D660)(--cpu Cortex-M0 -g --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\HR--pd "__UVISION_VERSION SETA 518"--list .\startup_hr8p506.lst --xref -o ..\output\startup_hr8p506.o --depend ..\output\startup_hr8p506.d)
+F (..\User\main.c)(0x5A90E0EC)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FreeRTOS -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\Hardware\Flow -I ..\Hardware\GSM -I ..\Hardware\Pressure -I ..\Hardware\TDS -I ..\Hardware\Uart -I ..\Library\Include -I ..\StartUp -I ..\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\HR-D__UVISION_VERSION="518"-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
+I (..\User\user_config.h)(0x5A8FF55F)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (..\CMSIS\HR8P506.h)(0x5A54453E)
+I (..\CMSIS\core_cm0.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmInstr.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmFunc.h)(0x5A4ED40B)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5A90BD8A)
+I (D:\Keil\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x5A90D9A5)
+I (..\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (..\FreeRTOS\include\portable.h)(0x573F3A16)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (..\FreeRTOS\portable\portmacro.h)(0x573F3A17)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (..\FreeRTOS\include\task.h)(0x573F3A16)
+I (..\FreeRTOS\include\list.h)(0x573F3A16)
+I (..\FreeRTOS\include\queue.h)(0x573F3A16)
+I (..\FreeRTOS\include\timers.h)(0x573F3A16)
+I (..\FreeRTOS\include\event_groups.h)(0x573F3A16)
+I (..\FreeRTOS\include\croutine.h)(0x573F3A16)
+I (..\FreeRTOS\include\semphr.h)(0x573F3A16)
+I (..\Library\Include\type.h)(0x5A4ED40B)
+I (..\CMSIS\system_HR8P506.h)(0x5A4ED40B)
+I (..\Library\Include\lib_gpio.h)(0x5A4ED40B)
+I (..\Library\Include\lib_uart.h)(0x5A4ED40B)
+I (..\Library\Include\lib_timer.h)(0x5A4ED40B)
+I (..\Library\Include\lib_scs.h)(0x5A4ED40B)
+I (..\Library\Include\lib_wdt.h)(0x5A4ED40B)
+I (..\Library\Include\lib_adc.h)(0x5A4ED40B)
+I (..\Library\Include\lib_flashiap.h)(0x5A4ED65E)
+I (..\Hardware\Uart\uart.h)(0x5A766CA8)
+I (..\Hardware\TDS\tds.h)(0x5A8FF54C)
+I (..\User\my_systick.h)(0x5A531D35)
+I (..\Hardware\GSM\sim800c.h)(0x5A8F71FB)
+I (..\User\msgbuild.h)(0x5A90DFED)
+I (..\Hardware\Pressure\pressure.h)(0x5A52CD93)
+I (..\Hardware\Flow\water_flow.h)(0x5A52CD93)
+F (..\User\msgbuild.c)(0x5A90E0E9)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FreeRTOS -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\Hardware\Flow -I ..\Hardware\GSM -I ..\Hardware\Pressure -I ..\Hardware\TDS -I ..\Hardware\Uart -I ..\Library\Include -I ..\StartUp -I ..\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\HR-D__UVISION_VERSION="518"-o ..\output\msgbuild.o --omf_browse ..\output\msgbuild.crf --depend ..\output\msgbuild.d)
+I (..\User\msgbuild.h)(0x5A90DFED)
+I (..\User\user_config.h)(0x5A8FF55F)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (..\CMSIS\HR8P506.h)(0x5A54453E)
+I (..\CMSIS\core_cm0.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmInstr.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmFunc.h)(0x5A4ED40B)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5A90BD8A)
+I (D:\Keil\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x5A90D9A5)
+I (..\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (..\FreeRTOS\include\portable.h)(0x573F3A16)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (..\FreeRTOS\portable\portmacro.h)(0x573F3A17)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (..\FreeRTOS\include\task.h)(0x573F3A16)
+I (..\FreeRTOS\include\list.h)(0x573F3A16)
+I (..\FreeRTOS\include\queue.h)(0x573F3A16)
+I (..\FreeRTOS\include\timers.h)(0x573F3A16)
+I (..\FreeRTOS\include\event_groups.h)(0x573F3A16)
+I (..\FreeRTOS\include\croutine.h)(0x573F3A16)
+I (..\FreeRTOS\include\semphr.h)(0x573F3A16)
+I (..\Library\Include\type.h)(0x5A4ED40B)
+I (..\CMSIS\system_HR8P506.h)(0x5A4ED40B)
+I (..\Library\Include\lib_gpio.h)(0x5A4ED40B)
+I (..\Library\Include\lib_uart.h)(0x5A4ED40B)
+I (..\Library\Include\lib_timer.h)(0x5A4ED40B)
+I (..\Library\Include\lib_scs.h)(0x5A4ED40B)
+I (..\Library\Include\lib_wdt.h)(0x5A4ED40B)
+I (..\Library\Include\lib_adc.h)(0x5A4ED40B)
+I (..\Library\Include\lib_flashiap.h)(0x5A4ED65E)
+I (..\Hardware\Uart\uart.h)(0x5A766CA8)
+I (..\Hardware\TDS\tds.h)(0x5A8FF54C)
+I (..\User\my_systick.h)(0x5A531D35)
+I (..\Hardware\GSM\sim800c.h)(0x5A8F71FB)
+I (..\Hardware\Pressure\pressure.h)(0x5A52CD93)
+I (..\Hardware\Flow\water_flow.h)(0x5A52CD93)
+F (..\User\my_systick.c)(0x5A531CFE)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FreeRTOS -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\Hardware\Flow -I ..\Hardware\GSM -I ..\Hardware\Pressure -I ..\Hardware\TDS -I ..\Hardware\Uart -I ..\Library\Include -I ..\StartUp -I ..\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\HR-D__UVISION_VERSION="518"-o ..\output\my_systick.o --omf_browse ..\output\my_systick.crf --depend ..\output\my_systick.d)
+I (..\User\my_systick.h)(0x5A531D35)
+I (..\User\user_config.h)(0x5A8FF55F)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (..\CMSIS\HR8P506.h)(0x5A54453E)
+I (..\CMSIS\core_cm0.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmInstr.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmFunc.h)(0x5A4ED40B)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5A90BD8A)
+I (D:\Keil\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x5A90D9A5)
+I (..\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (..\FreeRTOS\include\portable.h)(0x573F3A16)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (..\FreeRTOS\portable\portmacro.h)(0x573F3A17)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (..\FreeRTOS\include\task.h)(0x573F3A16)
+I (..\FreeRTOS\include\list.h)(0x573F3A16)
+I (..\FreeRTOS\include\queue.h)(0x573F3A16)
+I (..\FreeRTOS\include\timers.h)(0x573F3A16)
+I (..\FreeRTOS\include\event_groups.h)(0x573F3A16)
+I (..\FreeRTOS\include\croutine.h)(0x573F3A16)
+I (..\FreeRTOS\include\semphr.h)(0x573F3A16)
+I (..\Library\Include\type.h)(0x5A4ED40B)
+I (..\CMSIS\system_HR8P506.h)(0x5A4ED40B)
+I (..\Library\Include\lib_gpio.h)(0x5A4ED40B)
+I (..\Library\Include\lib_uart.h)(0x5A4ED40B)
+I (..\Library\Include\lib_timer.h)(0x5A4ED40B)
+I (..\Library\Include\lib_scs.h)(0x5A4ED40B)
+I (..\Library\Include\lib_wdt.h)(0x5A4ED40B)
+I (..\Library\Include\lib_adc.h)(0x5A4ED40B)
+I (..\Library\Include\lib_flashiap.h)(0x5A4ED65E)
+I (..\Hardware\Uart\uart.h)(0x5A766CA8)
+I (..\Hardware\TDS\tds.h)(0x5A8FF54C)
+I (..\Hardware\GSM\sim800c.h)(0x5A8F71FB)
+I (..\User\msgbuild.h)(0x5A90DFED)
+I (..\Hardware\Pressure\pressure.h)(0x5A52CD93)
+I (..\Hardware\Flow\water_flow.h)(0x5A52CD93)
+F (..\Hardware\Flow\water_flow.c)(0x5A52CDE5)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FreeRTOS -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\Hardware\Flow -I ..\Hardware\GSM -I ..\Hardware\Pressure -I ..\Hardware\TDS -I ..\Hardware\Uart -I ..\Library\Include -I ..\StartUp -I ..\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\HR-D__UVISION_VERSION="518"-o ..\output\water_flow.o --omf_browse ..\output\water_flow.crf --depend ..\output\water_flow.d)
+I (..\Hardware\Flow\water_flow.h)(0x5A52CD93)
+I (..\User\user_config.h)(0x5A8FF55F)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (..\CMSIS\HR8P506.h)(0x5A54453E)
+I (..\CMSIS\core_cm0.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmInstr.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmFunc.h)(0x5A4ED40B)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5A90BD8A)
+I (D:\Keil\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x5A90D9A5)
+I (..\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (..\FreeRTOS\include\portable.h)(0x573F3A16)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (..\FreeRTOS\portable\portmacro.h)(0x573F3A17)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (..\FreeRTOS\include\task.h)(0x573F3A16)
+I (..\FreeRTOS\include\list.h)(0x573F3A16)
+I (..\FreeRTOS\include\queue.h)(0x573F3A16)
+I (..\FreeRTOS\include\timers.h)(0x573F3A16)
+I (..\FreeRTOS\include\event_groups.h)(0x573F3A16)
+I (..\FreeRTOS\include\croutine.h)(0x573F3A16)
+I (..\FreeRTOS\include\semphr.h)(0x573F3A16)
+I (..\Library\Include\type.h)(0x5A4ED40B)
+I (..\CMSIS\system_HR8P506.h)(0x5A4ED40B)
+I (..\Library\Include\lib_gpio.h)(0x5A4ED40B)
+I (..\Library\Include\lib_uart.h)(0x5A4ED40B)
+I (..\Library\Include\lib_timer.h)(0x5A4ED40B)
+I (..\Library\Include\lib_scs.h)(0x5A4ED40B)
+I (..\Library\Include\lib_wdt.h)(0x5A4ED40B)
+I (..\Library\Include\lib_adc.h)(0x5A4ED40B)
+I (..\Library\Include\lib_flashiap.h)(0x5A4ED65E)
+I (..\Hardware\Uart\uart.h)(0x5A766CA8)
+I (..\Hardware\TDS\tds.h)(0x5A8FF54C)
+I (..\User\my_systick.h)(0x5A531D35)
+I (..\Hardware\GSM\sim800c.h)(0x5A8F71FB)
+I (..\User\msgbuild.h)(0x5A90DFED)
+I (..\Hardware\Pressure\pressure.h)(0x5A52CD93)
+F (..\Hardware\GSM\sim800c.c)(0x5A8FE8EF)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FreeRTOS -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\Hardware\Flow -I ..\Hardware\GSM -I ..\Hardware\Pressure -I ..\Hardware\TDS -I ..\Hardware\Uart -I ..\Library\Include -I ..\StartUp -I ..\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\HR-D__UVISION_VERSION="518"-o ..\output\sim800c.o --omf_browse ..\output\sim800c.crf --depend ..\output\sim800c.d)
+I (..\Hardware\GSM\sim800c.h)(0x5A8F71FB)
+I (..\User\user_config.h)(0x5A8FF55F)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (..\CMSIS\HR8P506.h)(0x5A54453E)
+I (..\CMSIS\core_cm0.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmInstr.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmFunc.h)(0x5A4ED40B)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5A90BD8A)
+I (D:\Keil\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x5A90D9A5)
+I (..\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (..\FreeRTOS\include\portable.h)(0x573F3A16)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (..\FreeRTOS\portable\portmacro.h)(0x573F3A17)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (..\FreeRTOS\include\task.h)(0x573F3A16)
+I (..\FreeRTOS\include\list.h)(0x573F3A16)
+I (..\FreeRTOS\include\queue.h)(0x573F3A16)
+I (..\FreeRTOS\include\timers.h)(0x573F3A16)
+I (..\FreeRTOS\include\event_groups.h)(0x573F3A16)
+I (..\FreeRTOS\include\croutine.h)(0x573F3A16)
+I (..\FreeRTOS\include\semphr.h)(0x573F3A16)
+I (..\Library\Include\type.h)(0x5A4ED40B)
+I (..\CMSIS\system_HR8P506.h)(0x5A4ED40B)
+I (..\Library\Include\lib_gpio.h)(0x5A4ED40B)
+I (..\Library\Include\lib_uart.h)(0x5A4ED40B)
+I (..\Library\Include\lib_timer.h)(0x5A4ED40B)
+I (..\Library\Include\lib_scs.h)(0x5A4ED40B)
+I (..\Library\Include\lib_wdt.h)(0x5A4ED40B)
+I (..\Library\Include\lib_adc.h)(0x5A4ED40B)
+I (..\Library\Include\lib_flashiap.h)(0x5A4ED65E)
+I (..\Hardware\Uart\uart.h)(0x5A766CA8)
+I (..\Hardware\TDS\tds.h)(0x5A8FF54C)
+I (..\User\my_systick.h)(0x5A531D35)
+I (..\User\msgbuild.h)(0x5A90DFED)
+I (..\Hardware\Pressure\pressure.h)(0x5A52CD93)
+I (..\Hardware\Flow\water_flow.h)(0x5A52CD93)
+F (..\Hardware\TDS\tds.c)(0x5A90DFED)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FreeRTOS -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\Hardware\Flow -I ..\Hardware\GSM -I ..\Hardware\Pressure -I ..\Hardware\TDS -I ..\Hardware\Uart -I ..\Library\Include -I ..\StartUp -I ..\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\HR-D__UVISION_VERSION="518"-o ..\output\tds.o --omf_browse ..\output\tds.crf --depend ..\output\tds.d)
+I (..\Hardware\TDS\tds.h)(0x5A8FF54C)
+I (..\User\user_config.h)(0x5A8FF55F)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (..\CMSIS\HR8P506.h)(0x5A54453E)
+I (..\CMSIS\core_cm0.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmInstr.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmFunc.h)(0x5A4ED40B)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5A90BD8A)
+I (D:\Keil\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x5A90D9A5)
+I (..\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (..\FreeRTOS\include\portable.h)(0x573F3A16)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (..\FreeRTOS\portable\portmacro.h)(0x573F3A17)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (..\FreeRTOS\include\task.h)(0x573F3A16)
+I (..\FreeRTOS\include\list.h)(0x573F3A16)
+I (..\FreeRTOS\include\queue.h)(0x573F3A16)
+I (..\FreeRTOS\include\timers.h)(0x573F3A16)
+I (..\FreeRTOS\include\event_groups.h)(0x573F3A16)
+I (..\FreeRTOS\include\croutine.h)(0x573F3A16)
+I (..\FreeRTOS\include\semphr.h)(0x573F3A16)
+I (..\Library\Include\type.h)(0x5A4ED40B)
+I (..\CMSIS\system_HR8P506.h)(0x5A4ED40B)
+I (..\Library\Include\lib_gpio.h)(0x5A4ED40B)
+I (..\Library\Include\lib_uart.h)(0x5A4ED40B)
+I (..\Library\Include\lib_timer.h)(0x5A4ED40B)
+I (..\Library\Include\lib_scs.h)(0x5A4ED40B)
+I (..\Library\Include\lib_wdt.h)(0x5A4ED40B)
+I (..\Library\Include\lib_adc.h)(0x5A4ED40B)
+I (..\Library\Include\lib_flashiap.h)(0x5A4ED65E)
+I (..\Hardware\Uart\uart.h)(0x5A766CA8)
+I (..\User\my_systick.h)(0x5A531D35)
+I (..\Hardware\GSM\sim800c.h)(0x5A8F71FB)
+I (..\User\msgbuild.h)(0x5A90DFED)
+I (..\Hardware\Pressure\pressure.h)(0x5A52CD93)
+I (..\Hardware\Flow\water_flow.h)(0x5A52CD93)
+I (D:\Keil\ARM\ARMCC\include\math.h)(0x569DEA3A)
+F (..\Hardware\Uart\uart.c)(0x5A8F7500)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FreeRTOS -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\Hardware\Flow -I ..\Hardware\GSM -I ..\Hardware\Pressure -I ..\Hardware\TDS -I ..\Hardware\Uart -I ..\Library\Include -I ..\StartUp -I ..\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\HR-D__UVISION_VERSION="518"-o ..\output\uart.o --omf_browse ..\output\uart.crf --depend ..\output\uart.d)
+I (..\Hardware\Uart\uart.h)(0x5A766CA8)
+I (..\User\user_config.h)(0x5A8FF55F)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (..\CMSIS\HR8P506.h)(0x5A54453E)
+I (..\CMSIS\core_cm0.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmInstr.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmFunc.h)(0x5A4ED40B)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5A90BD8A)
+I (D:\Keil\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x5A90D9A5)
+I (..\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (..\FreeRTOS\include\portable.h)(0x573F3A16)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (..\FreeRTOS\portable\portmacro.h)(0x573F3A17)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (..\FreeRTOS\include\task.h)(0x573F3A16)
+I (..\FreeRTOS\include\list.h)(0x573F3A16)
+I (..\FreeRTOS\include\queue.h)(0x573F3A16)
+I (..\FreeRTOS\include\timers.h)(0x573F3A16)
+I (..\FreeRTOS\include\event_groups.h)(0x573F3A16)
+I (..\FreeRTOS\include\croutine.h)(0x573F3A16)
+I (..\FreeRTOS\include\semphr.h)(0x573F3A16)
+I (..\Library\Include\type.h)(0x5A4ED40B)
+I (..\CMSIS\system_HR8P506.h)(0x5A4ED40B)
+I (..\Library\Include\lib_gpio.h)(0x5A4ED40B)
+I (..\Library\Include\lib_uart.h)(0x5A4ED40B)
+I (..\Library\Include\lib_timer.h)(0x5A4ED40B)
+I (..\Library\Include\lib_scs.h)(0x5A4ED40B)
+I (..\Library\Include\lib_wdt.h)(0x5A4ED40B)
+I (..\Library\Include\lib_adc.h)(0x5A4ED40B)
+I (..\Library\Include\lib_flashiap.h)(0x5A4ED65E)
+I (..\Hardware\TDS\tds.h)(0x5A8FF54C)
+I (..\User\my_systick.h)(0x5A531D35)
+I (..\Hardware\GSM\sim800c.h)(0x5A8F71FB)
+I (..\User\msgbuild.h)(0x5A90DFED)
+I (..\Hardware\Pressure\pressure.h)(0x5A52CD93)
+I (..\Hardware\Flow\water_flow.h)(0x5A52CD93)
+F (..\FreeRTOS\croutine.c)(0x573F3A16)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FreeRTOS -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\Hardware\Flow -I ..\Hardware\GSM -I ..\Hardware\Pressure -I ..\Hardware\TDS -I ..\Hardware\Uart -I ..\Library\Include -I ..\StartUp -I ..\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\HR-D__UVISION_VERSION="518"-o ..\output\croutine.o --omf_browse ..\output\croutine.crf --depend ..\output\croutine.d)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5A90BD8A)
+I (D:\Keil\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x5A90D9A5)
+I (..\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (..\FreeRTOS\include\portable.h)(0x573F3A16)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (..\FreeRTOS\portable\portmacro.h)(0x573F3A17)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (..\FreeRTOS\include\task.h)(0x573F3A16)
+I (..\FreeRTOS\include\list.h)(0x573F3A16)
+I (..\FreeRTOS\include\croutine.h)(0x573F3A16)
+F (..\FreeRTOS\event_groups.c)(0x573F3A16)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FreeRTOS -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\Hardware\Flow -I ..\Hardware\GSM -I ..\Hardware\Pressure -I ..\Hardware\TDS -I ..\Hardware\Uart -I ..\Library\Include -I ..\StartUp -I ..\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\HR-D__UVISION_VERSION="518"-o ..\output\event_groups.o --omf_browse ..\output\event_groups.crf --depend ..\output\event_groups.d)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5A90BD8A)
+I (D:\Keil\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x5A90D9A5)
+I (..\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (..\FreeRTOS\include\portable.h)(0x573F3A16)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (..\FreeRTOS\portable\portmacro.h)(0x573F3A17)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (..\FreeRTOS\include\task.h)(0x573F3A16)
+I (..\FreeRTOS\include\list.h)(0x573F3A16)
+I (..\FreeRTOS\include\timers.h)(0x573F3A16)
+I (..\FreeRTOS\include\event_groups.h)(0x573F3A16)
+F (..\FreeRTOS\heap_1.c)(0x573F3A16)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FreeRTOS -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\Hardware\Flow -I ..\Hardware\GSM -I ..\Hardware\Pressure -I ..\Hardware\TDS -I ..\Hardware\Uart -I ..\Library\Include -I ..\StartUp -I ..\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\HR-D__UVISION_VERSION="518"-o ..\output\heap_1.o --omf_browse ..\output\heap_1.crf --depend ..\output\heap_1.d)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5A90BD8A)
+I (D:\Keil\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x5A90D9A5)
+I (..\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (..\FreeRTOS\include\portable.h)(0x573F3A16)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (..\FreeRTOS\portable\portmacro.h)(0x573F3A17)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (..\FreeRTOS\include\task.h)(0x573F3A16)
+I (..\FreeRTOS\include\list.h)(0x573F3A16)
+F (..\FreeRTOS\list.c)(0x573F3A16)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FreeRTOS -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\Hardware\Flow -I ..\Hardware\GSM -I ..\Hardware\Pressure -I ..\Hardware\TDS -I ..\Hardware\Uart -I ..\Library\Include -I ..\StartUp -I ..\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\HR-D__UVISION_VERSION="518"-o ..\output\list.o --omf_browse ..\output\list.crf --depend ..\output\list.d)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5A90BD8A)
+I (D:\Keil\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x5A90D9A5)
+I (..\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (..\FreeRTOS\include\portable.h)(0x573F3A16)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (..\FreeRTOS\portable\portmacro.h)(0x573F3A17)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (..\FreeRTOS\include\list.h)(0x573F3A16)
+F (..\FreeRTOS\queue.c)(0x573F3A17)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FreeRTOS -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\Hardware\Flow -I ..\Hardware\GSM -I ..\Hardware\Pressure -I ..\Hardware\TDS -I ..\Hardware\Uart -I ..\Library\Include -I ..\StartUp -I ..\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\HR-D__UVISION_VERSION="518"-o ..\output\queue.o --omf_browse ..\output\queue.crf --depend ..\output\queue.d)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5A90BD8A)
+I (D:\Keil\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x5A90D9A5)
+I (..\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (..\FreeRTOS\include\portable.h)(0x573F3A16)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (..\FreeRTOS\portable\portmacro.h)(0x573F3A17)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (..\FreeRTOS\include\task.h)(0x573F3A16)
+I (..\FreeRTOS\include\list.h)(0x573F3A16)
+I (..\FreeRTOS\include\queue.h)(0x573F3A16)
+F (..\FreeRTOS\tasks.c)(0x573F3A17)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FreeRTOS -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\Hardware\Flow -I ..\Hardware\GSM -I ..\Hardware\Pressure -I ..\Hardware\TDS -I ..\Hardware\Uart -I ..\Library\Include -I ..\StartUp -I ..\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\HR-D__UVISION_VERSION="518"-o ..\output\tasks.o --omf_browse ..\output\tasks.crf --depend ..\output\tasks.d)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5A90BD8A)
+I (D:\Keil\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x5A90D9A5)
+I (..\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (..\FreeRTOS\include\portable.h)(0x573F3A16)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (..\FreeRTOS\portable\portmacro.h)(0x573F3A17)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (..\FreeRTOS\include\task.h)(0x573F3A16)
+I (..\FreeRTOS\include\list.h)(0x573F3A16)
+I (..\FreeRTOS\include\timers.h)(0x573F3A16)
+I (..\FreeRTOS\include\StackMacros.h)(0x573F3A16)
+F (..\FreeRTOS\timers.c)(0x573F3A17)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FreeRTOS -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\Hardware\Flow -I ..\Hardware\GSM -I ..\Hardware\Pressure -I ..\Hardware\TDS -I ..\Hardware\Uart -I ..\Library\Include -I ..\StartUp -I ..\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\HR-D__UVISION_VERSION="518"-o ..\output\timers.o --omf_browse ..\output\timers.crf --depend ..\output\timers.d)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5A90BD8A)
+I (D:\Keil\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x5A90D9A5)
+I (..\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (..\FreeRTOS\include\portable.h)(0x573F3A16)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (..\FreeRTOS\portable\portmacro.h)(0x573F3A17)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (..\FreeRTOS\include\task.h)(0x573F3A16)
+I (..\FreeRTOS\include\list.h)(0x573F3A16)
+I (..\FreeRTOS\include\queue.h)(0x573F3A16)
+I (..\FreeRTOS\include\timers.h)(0x573F3A16)
+F (..\FreeRTOS\portable\port.c)(0x5A90DAF2)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\FreeRTOS -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\Hardware\Flow -I ..\Hardware\GSM -I ..\Hardware\Pressure -I ..\Hardware\TDS -I ..\Hardware\Uart -I ..\Library\Include -I ..\StartUp -I ..\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\HR-D__UVISION_VERSION="518"-o ..\output\port.o --omf_browse ..\output\port.crf --depend ..\output\port.d)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5A90BD8A)
+I (D:\Keil\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x5A90D9A5)
+I (..\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (..\FreeRTOS\include\portable.h)(0x573F3A16)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (..\FreeRTOS\portable\portmacro.h)(0x573F3A17)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (..\FreeRTOS\include\task.h)(0x573F3A16)
+I (..\FreeRTOS\include\list.h)(0x573F3A16)
+I (..\CMSIS\HR8P506.h)(0x5A54453E)
+I (..\CMSIS\core_cm0.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmInstr.h)(0x5A4ED40B)
+I (..\CMSIS\core_cmFunc.h)(0x5A4ED40B)

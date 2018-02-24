@@ -1,0 +1,12 @@
+..\output\system_hr8p506.o: ..\CMSIS\system_HR8P506.c
+..\output\system_hr8p506.o: ..\CMSIS\system_HR8P506.h
+..\output\system_hr8p506.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\system_hr8p506.o: ..\CMSIS\HR8P506.h
+..\output\system_hr8p506.o: ..\CMSIS\core_cm0.h
+..\output\system_hr8p506.o: ..\CMSIS\core_cmInstr.h
+..\output\system_hr8p506.o: ..\CMSIS\core_cmFunc.h
+..\output\system_hr8p506.o: ..\Library\Include\lib_scu.h
+..\output\system_hr8p506.o: ..\Library\Include\lib_gpio.h
+..\output\system_hr8p506.o: ..\Library\Include\type.h
+..\output\system_hr8p506.o: ..\Library\Include\lib_scs.h
+..\output\system_hr8p506.o: ..\Library\Include\lib_wdt.h
